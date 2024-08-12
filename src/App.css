@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+a {
+  font-family: "Nunito Sans", serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navbar-brand:hover {
+  background-color: #298eff;
+}
+
+.link-light:hover {
+  opacity: 0.8;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0 black;
+}
+
+.active {
+  box-shadow: 0 0 0 4px white !important;
+}
